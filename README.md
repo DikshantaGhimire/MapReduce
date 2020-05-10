@@ -1,9 +1,8 @@
 # MapReduce
 Analyst of Airport Dataset using non-MapReduce prototype (Java)
 
-The project can be compiled using Eclipse Command Line Arguments in Eclipse. 
-Open Project -> AirportMain.java -> Run Configurations -> Arguments -> Create a path for the two datasets used and the output text file -> RUN
-eg "C:\Users\diksh\eclipse-workspace\CC\bin\com\cloudcomputing\cw\AComp_Passenger_Data.csv C:\Users\diksh\eclipse-workspace\CC\bin\com\cloudcomputing\cw\Top30_airports_LatLong.csv output.txt"
-
-Command Line Interface look like this: 
- C:\Program Files\Java\jre1.8.0_201\bin\javaw.exe -Dfile.encoding=Cp1252 -classpath "C:\Users\diksh\Google Drive\Reading University\Cloud Computing\Coursework\bin;C:\Users\diksh\Downloads\gson-2.6.2.jar" com.coursework.cc.AriportMain "C:\Users\diksh\eclipse-workspace\CC\bin\com\cloudcomputing\cw\AComp_Passenger_Data.csv" "C:\Users\diksh\eclipse-workspace\CC\bin\com\cloudcomputing\cw\Top30_airports_LatLong.csv" output.txt
+Objectives
+• Determine the number of flights from each airport; include a list of any airports not used.
+• Create a list of flights based on the Flight id, this output should include the passenger Id, relevant IATA/FAA codes, the departure time, the arrival time (times to be converted to HH:MM:SS format), and the flight times.
+• Calculate the number of passengers on each flight.
+• Calculate the line-of-sight (nautical) miles for each flight and the total travelled by each passenger and thus output the passenger having earned the highest air miles.
