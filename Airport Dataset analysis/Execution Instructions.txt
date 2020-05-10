@@ -1,3 +1,11 @@
+Objectives
+• Determine the number of flights from each airport; include a list of any airports not used.
+• Create a list of flights based on the Flight id, this output should include the passenger Id, relevant IATA/FAA codes, the departure time, the arrival time (times to be converted to HH:MM:SS format), and the flight times.
+• Calculate the number of passengers on each flight.
+• Calculate the line-of-sight (nautical) miles for each flight and the total travelled by each passenger and thus output the passenger having earned the highest air miles.
+
+
+
 The project can be compiled using Eclipse Command Line Arguments in Eclipse. 
 Open Project -> AirportMain.java -> Run Configurations -> Arguments -> Create a path for the two datasets used and the output text file -> RUN
 eg "C:\Users\diksh\eclipse-workspace\CC\bin\com\cloudcomputing\cw\AComp_Passenger_Data.csv C:\Users\diksh\eclipse-workspace\CC\bin\com\cloudcomputing\cw\Top30_airports_LatLong.csv output.txt"
